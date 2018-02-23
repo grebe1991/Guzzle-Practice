@@ -1,0 +1,16 @@
+{
+    "name": "practice/phplibraries",
+    "description": "Practice with php libraries and algorithms",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "grebe1991",
+            "email": "grebenita@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2@dev"
+    }
+}
