@@ -2,18 +2,18 @@
 require 'vendor/autoload.php';
 
 $scripts = [
-    'basic' => 'basic_requests.php',
-    'async' => 'async_requests.php',
-    'concurent' => 'concurent_requests.php',
-    'query' => 'query_requests.php',
-    'datapost' => 'datapost_requests.php',
-    'advanced' => 'advanced_requests.php',
-    'response' => 'response_requests.php',
-    'psr7request' => 'psr7requests.php',
-    'psr7response' => 'psr7response.php',
-    'psr7bodies' => 'psr7bodies.php',
-    'psr7headers' => 'psr7headers.php',
-    'psr7streams' => 'psr7streams.php',
+    'basic' => 'requests/basic_requests.php',
+    'async' => 'requests/async_requests.php',
+    'concurent' => 'requests/concurent_requests.php',
+    'query' => 'requests/query_requests.php',
+    'datapost' => 'requests/datapost_requests.php',
+    'advanced' => 'requests/advanced_requests.php',
+    'response' => 'requests/response_requests.php',
+    'psr7request' => 'psr7/psr7requests.php',
+    'psr7response' => 'psr7/psr7response.php',
+    'psr7bodies' => 'psr7/psr7bodies.php',
+    'psr7headers' => 'psr7/psr7headers.php',
+    'psr7streams' => 'psr7/psr7streams.php',
 ];
 $wrong_argument_msg = PHP_EOL . 'You must choose a valid script to execute. Type "php index.php --help" to get available options.' . PHP_EOL . PHP_EOL;
 if ($argc > 1) {
