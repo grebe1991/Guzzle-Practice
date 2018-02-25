@@ -1,4 +1,5 @@
 <?php
+
 require 'vendor/autoload.php';
 
 $scripts = [
@@ -14,6 +15,10 @@ $scripts = [
     'psr7bodies' => 'psr7/psr7bodies.php',
     'psr7headers' => 'psr7/psr7headers.php',
     'psr7streams' => 'psr7/psr7streams.php',
+    'psr7middleware' => 'psr7/psr7middleware.php',
+    'mock' => 'testing/mock.php',
+    'history' => 'testing/history.php',
+    
 ];
 $wrong_argument_msg = PHP_EOL . 'You must choose a valid script to execute. Type "php index.php --help" to get available options.' . PHP_EOL . PHP_EOL;
 if ($argc > 1) {
